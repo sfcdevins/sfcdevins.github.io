@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Army Recruitment | Start Your Journey</title>
+    <style>
+        :root {
+            --army-green: #4B5320;
+            --gold: #D4AF37;
+            --charcoal: #333;
+            --white: #f4f4f4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: var(--charcoal);
+            background-color: var(--white);
+        }
+
+        header {
+            background: var(--army-green);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590250751910-903823773995?auto=format&fit=crop&q=80&w=1200') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .benefits {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background: #e2e2e2;
+            padding: 2rem 0;
+        }
+
+        .benefit-card {
+            flex: 1;
+            min-width: 250px;
+            margin: 1rem;
+            padding: 1rem;
+            background: white;
+            border-top: 5px solid var(--army-green);
+            text-align: center;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: var(--army-green);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #3a4118;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--charcoal);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>U.S. ARMY RECRUITING</h1>
+        <p>Serving with Honor. Leading with Purpose.</p>
+    </header>
+
+    <section class="hero">
+        <h2>YOUR FUTURE BEGINS HERE</h2>
+        <p>Gain the skills, strength, and confidence to lead.</p>
+    </section>
+
+    <div class="container">
+        <h2 style="text-align:center;">Why Join?</h2>
+        <div class="benefits">
+            <div class="benefit-card">
+                <h3>Education</h3>
+                <p>Up to 100% tuition assistance and the GI Bill to fund your degree.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Training</h3>
+                <p>Over 150 career paths including tech, medicine, and engineering.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>Stability</h3>
+                <p>Competitive pay, housing allowances, and comprehensive healthcare.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="contact-form">
+            <h2 style="text-align:center;">Request Information</h2>
+            <form action="#">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Any questions for the recruiter?"></textarea>
+                <button type="submit">CONTACT ME</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Local Recruiting Office. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
